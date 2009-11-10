@@ -1,0 +1,27 @@
+#googledocs h1, h2, h3, h4 { 
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    border-style: none;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#googledocs {
+    background-color: #fff;
+}
+
+#googledocs ul {
+    list-style-type: circle;
+    border-style: none;
+}
+
+#googledocs li {
+   border-style: none;
+}
+
+#googledocs .delete {
+    color: #f22;
+}
+
+#googledocs a.linkText:link {
+    color: #f22;
+}

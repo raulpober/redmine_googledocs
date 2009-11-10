@@ -1,0 +1,5 @@
+<h3>Are you sure you want to delete this file?</h3>
+<br/>
+<%= link_to_if_authorized h('Delete'), :action => 'delete', :project_id => @projid, :docid => @docid, :check => 'False', :etag => @etag %>
+<br/>
+<%= link_to_if_authorized h('Cancel'), :action => 'list', :project_id => @projid %>
