@@ -4,7 +4,7 @@ This is a very rough version of a plugin to integrate google documents into redm
 
 The plugin works by listing, creating, and deleting documents in the global google docs account. Each project in redmine defines a top-level folder in google docs. Each document category then defines a sub-folder in the projects top-level folder. Documents can then be created listed, edited (using google docs and iframes), and deleted through redmine.
 
-To install the plugin, checkout the code and place in vendor/plugins. Then edit line 183 in googledocs_contrller.rb and add your google docs email and password: @client.clientlogin(‘your_google_email’, ‘your_password’)
+To install the plugin, checkout the code and place in vendor/plugins. Then edit line 183 in googledocs_controller.rb and add your google docs email and password: @client.clientlogin(‘your_google_email’, ‘your_password’)
 
 In the redmine permissions enable permissions for the plugin. The plugin is project specific, so then go to the project settings and modules and enable the plugin.
 
